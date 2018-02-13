@@ -1,0 +1,38 @@
+.matches {
+  background-color: lightgray;
+  overflow-y: scroll;
+  height: 500px; }
+
+.matches_score {
+  display: flex;
+  flex-wrap: wrap; }
+
+.matches_score > span, button {
+  text-align: center;
+  border: 1px solid gray;
+  box-sizing: border-box; }
+
+.matches_score > button {
+  text-decoration: underline;
+  color: blue; }
+
+.matches_score > button:hover {
+  background-color: #aaa;
+  cursor: pointer; }
+
+.matches_score:first-child {
+  font-weight: bold;
+  background-color: black;
+  color: white; }
+
+.matches_score_chord_name {
+  font-weight: bold; }
+
+.matches_score_chord {
+  flex: 1 0 25%; }
+
+.matches_score_score {
+  flex: 1 0 15%; }
+
+.matches_score_d {
+  flex: 1 0 10%; }
